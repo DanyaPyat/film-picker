@@ -1,6 +1,6 @@
 {
   "adult": false,
-  "backdrop_path": "/40cmWWfRgA7Jz8Mx6D59uOqczuv.jpg",
+  "backdrop_path": null,
   "belongs_to_collection": null,
   "budget": 0,
   "genres": [
@@ -9,46 +9,46 @@
       "name": "Drama"
     },
     {
-      "id": 10749,
-      "name": "Romance"
+      "id": 10751,
+      "name": "Family"
     }
   ],
   "homepage": "",
-  "id": 163761,
-  "imdb_id": "tt1252557",
-  "original_language": "zh",
-  "original_title": "\u82b1\u5403\u4e86\u90a3\u5973\u5b69",
-  "overview": "Four separate vignettes about lesbian relationships and dating, ending with a summation about relationships.",
-  "popularity": 2.744,
-  "poster_path": "/vawhFSUCDFHdqjEGKYYRJGtUFue.jpg",
+  "id": 477961,
+  "imdb_id": "tt3905112",
+  "original_language": "pt",
+  "original_title": "Cloro",
+  "overview": "Under the blinding sun Clara struggles to see her family and the reality that surrounds her.",
+  "popularity": 0.6,
+  "poster_path": "/8OophtarMke02hweHMFRAqqRIc6.jpg",
   "production_companies": [
     {
-      "id": 21724,
-      "logo_path": null,
-      "name": "Red Society Film",
-      "origin_country": "TW"
+      "id": 145451,
+      "logo_path": "/kzXUgA3tGc5wewLj6L8D1PtYp8W.png",
+      "name": "Mirada Filmes",
+      "origin_country": "BR"
     }
   ],
   "production_countries": [
     {
-      "iso_3166_1": "TW",
-      "name": "Taiwan"
+      "iso_3166_1": "BR",
+      "name": "Brazil"
     }
   ],
-  "release_date": "2008-09-12",
+  "release_date": "2014-07-01",
   "revenue": 0,
-  "runtime": 106,
+  "runtime": 18,
   "spoken_languages": [
     {
-      "english_name": "Mandarin",
-      "iso_639_1": "zh",
-      "name": "\u666e\u901a\u8bdd"
+      "english_name": "Portuguese",
+      "iso_639_1": "pt",
+      "name": "Portugu\u00eas"
     }
   ],
   "status": "Released",
-  "tagline": "How many loves could be?",
-  "title": "Candy Rain",
+  "tagline": "",
+  "title": "Cloro",
   "video": false,
-  "vote_average": 4.281,
-  "vote_count": 16
+  "vote_average": 5.0,
+  "vote_count": 2
 }
