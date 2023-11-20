@@ -97,7 +97,6 @@
                 "sha256:f9e09a1c83521d770d170b3801eea19b89f41ccaa61d53026ed111cb6f088887"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.8'",
             "version": "==3.9.0"
         },
         "aiosignal": {

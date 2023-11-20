@@ -37,5 +37,6 @@ class Movie:
                     return await Movie.main()
 
 
-a = asyncio.run(Movie.main())
+
+a = asyncio.get_event_loop().run_until_complete(Movie.main())
 print(a)
