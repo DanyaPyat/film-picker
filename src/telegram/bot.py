@@ -14,14 +14,14 @@ async def start(message):
     await bot.send_message(message.chat.id, "Menu:", reply_markup=keyboards.menu_kb)
 
 
-@dp.message(F.text == '🎥 Выбрать фильм')
+@dp.message(F.text == '🎥 Choose film')
 async def chose_film(message):
     await bot.delete_message(message.chat.id, message.message_id)
     await bot.delete_message(message.chat.id, message.message_id-1)
-    await bot.send_message(message.chat.id, "Как будем выбирать:", reply_markup=keyboards.chose_film_kb)
+    await bot.send_message(message.chat.id, "How do you want to choose a film:", reply_markup=keyboards.chose_film_kb)
 
 
-@dp.message(F.text == '⬅️ Назад')
+@dp.message(F.text == '⬅️ Back')
 async def back(message):
     await bot.delete_message(message.chat.id, message.message_id)
     await bot.delete_message(message.chat.id, message.message_id-1)

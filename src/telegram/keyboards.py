@@ -3,13 +3,13 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 menu_kb = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text="🎥 Выбрать фильм"),
-            KeyboardButton(text="📱 Лента"),
-            KeyboardButton(text="🔎 Поиск фильма")
+            KeyboardButton(text="🎥 Choose film"),
+            KeyboardButton(text="📱 FilmTok"),
+            KeyboardButton(text="🔎 Film search")
         ],
         [
-            KeyboardButton(text="👤 Аккаунт"),
-            KeyboardButton(text="🔝 Топы"),
+            KeyboardButton(text="👤 Account"),
+            KeyboardButton(text="🔝 Top"),
         ]
     ],
     resize_keyboard=True,
@@ -19,11 +19,11 @@ menu_kb = ReplyKeyboardMarkup(
 chose_film_kb = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text="Жанр"),
-            KeyboardButton(text="Год")
+            KeyboardButton(text="Gener"),
+            KeyboardButton(text="Year"),
         ],
         [
-            KeyboardButton(text="⬅️ Назад"),
+            KeyboardButton(text="⬅️ Back"),
         ]
     ],
     resize_keyboard=True,
